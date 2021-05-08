@@ -1,8 +1,8 @@
 const inquirer = require("inquirer");
+const Manager = require("./lib/Manager");
 
 const init = async () => {
     const managerInfo = await getManagerInfo();
-    console.log(managerInfo.managerName);
 }
 
 // Get all the manager's information
