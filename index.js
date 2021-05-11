@@ -225,8 +225,8 @@ const createCardHTML = (employee, role) => {
             </div>
             <div class="card-body">
                 <ul>
-                    <li>${employee.id}</li>
-                    <li>${employee.email}</li>
+                    <li>ID:${employee.id}</li>
+                    <li>Email:${employee.email}</li>
                     <li>${liContent}</li>
                 </ul>
             </div>
