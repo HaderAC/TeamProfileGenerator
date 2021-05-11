@@ -170,7 +170,7 @@ const generateHTML = async ()=>{
         </head>
         <body>
             <header>
-                <h1>Your Team</h1>
+                <h1>Our Team</h1>
             </header>
 
             <main class="container custom-flex">
@@ -225,8 +225,8 @@ const createCardHTML = (employee, role) => {
             </div>
             <div class="card-body">
                 <ul>
-                    <li>ID:${employee.id}</li>
-                    <li>Email:${employee.email}</li>
+                    <li>ID: ${employee.id}</li>
+                    <li>Email: ${employee.email}</li>
                     <li>${liContent}</li>
                 </ul>
             </div>
