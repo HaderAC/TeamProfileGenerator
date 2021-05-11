@@ -6,11 +6,12 @@ html, body {
 
 body {
     background-image: url(https://dbdzm869oupei.cloudfront.net/img/vinylrugs/preview/21768.png);
-    color:white;
+    color:rgb(189, 50, 50);
     margin: 0;
 }
 
 header {
+    font-family: sans-serif;
     text-align: center;
     color: #fff;
     background: linear-gradient(90deg, rgb(10, 1, 0) 0%, rgb(161, 57, 62) 18%, rgb(129, 47, 57) 30%, rgba(113,20,44,1) 53%, rgb(40, 67, 190) 100%);
@@ -19,10 +20,10 @@ header {
 }
 
 .card {
-    width: 30%;
-    height: 280px;
+    width: 33.33%;
+    /* height: 250px; */
     background: #fff;
-    margin: 20px;
+    margin: 33.33px;
 }
 
 .card .card-header {
@@ -35,7 +36,13 @@ header {
     background: black;
     margin: 0 5px;
     padding: 8px 12px;
+    text-align: center;
 }
+
+.card .card-header {
+    text-align: center;
+}
+
 ul {margin: 0; padding: 0;}
 ul li {
     list-style-type: none;
