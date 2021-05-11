@@ -5,7 +5,8 @@ html, body {
 }
 
 body {
-    background: rgb(85, 85, 85);
+    background-image: url(https://dbdzm869oupei.cloudfront.net/img/vinylrugs/preview/21768.png);
+    /* background: rgb(8, 0, 0); */
     color:white;
     margin: 0;
 }
@@ -26,7 +27,7 @@ header {
 }
 
 .card .card-header {
-    background: linear-gradient(90deg, rgba(36,1,0,1) 0%, rgba(74,27,29,1) 18%, rgba(85,25,32,1) 30%, rgba(113,20,44,1) 53%, rgba(0,233,255,1) 100%);
+    background: black;
     margin: 0 5px;
     border-bottom: 1px solid blue;
     padding: 3px 12px;
