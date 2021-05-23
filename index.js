@@ -220,7 +220,7 @@ const createCardHTML = (employee, role) => {
     return `
     <div class="card">
             <div class="card-header">
-                <h2 class="card-title">Hi...My name is ${employee.name}</h2>
+                <h2 class="card-title">Hello, my name is ${employee.name}</h2>
                 <h3 class="role">${employee.getRole()}</h3>
             </div>
             <div class="card-body">
